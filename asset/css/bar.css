@@ -1,0 +1,25 @@
+
+
+ {box-sizing: border-box;}
+h2, p{color: #fff !important;text-shadow: 1px 1px 1px #ffffff;}
+.openBtn {background:#ef6603;border: 2px;padding: 15px 15px;font-size: 20px;cursor: pointer;}
+
+openBtn:hover {background: #ef6603;}
+
+
+
+.overlay {height: 100%;width: 100%;display: none;position: fixed;z-index: 1;top: 0;left: 0;background-color: rgb(0,0,0);background-color: rgba(0,0,0, 0.7);transition: 0.3s;}
+
+.overlay-content {position: relative;top: 46%;width: 80%;text-align: center;margin-top: 30px;margin: auto;transition: 0.3s;}
+
+.overlay .closebtn {position: absolute;top: 20px;right: 45px;font-size: 60px;cursor: pointer;color: white;}
+
+.overlay .closebtn:hover {color: #ccc;}
+
+.overlay input[type=text] {padding: 15px;font-size: 17px;border: none;float: left;width: 60%;background: white;}
+
+.overlay input[type=text]:hover {background: #f1f1f1;transition: 0.3s;}
+
+.overlay button {float: left;width: 20%;padding: 15px;background: #ddd;font-size: 17px;border: none;cursor: pointer;transition: 0.3s;}
+
+.overlay button:hover {background: #bbb;}

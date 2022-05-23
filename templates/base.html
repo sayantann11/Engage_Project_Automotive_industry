@@ -1,0 +1,152 @@
+<head>
+  <!-- ======================================================================= -->
+  <!---------------------------- important links ----------------------------->
+  <!-- ======================================================================= -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link href="asset/css/bar.css" rel="stylesheet">
+  <link href="asset/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="asset/vendor/aos/aos.css" rel="stylesheet">
+  <link href="asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="asset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="asset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="asset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="asset/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="asset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="asset/css/style.css" rel="stylesheet">
+  <link href="ss.css" rel="stylesheet">
+
+  <!-- ======================================================================= -->
+  <!---------------------------- important links end----------------------------->
+  <!-- ======================================================================= -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between " style="background-color:powderblue;">
+      <div class="logo">
+        <h1><a href="index.html">Cricket Analysis</a></h1>
+
+
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
+          <li><a class="nav-link scrollto" href="analysis.html">Analyze</a></li>
+          <li><a class="openBtn" onclick="openSearch()" class="btn openBtn">Open Search Box</a></li>
+
+
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+
+      <!----------------------------------------------hover screen----------------------------------------------------->
+      <form method="POST" action="{% url 'bastman' %}">
+        {% csrf_token %}
+        <!-- Dropdown -->
+        <input type="text" list="citylist" Placeholder="Search Player.." name="playername" class="form-control"
+          style="height: 50px">
+        <datalist id="citylist">
+          {% for lists in list %}
+          <option value="{{lists}}">
+            {% endfor %}
+        </datalist>
+        <button type='submit' value='Seleted option' id='but_read'>Submit</button>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <form method="POST" action="{% url 'team' %}">
+        {% csrf_token %}
+        <!-- Dropdown -->
+        <input type="text" list="citylist2" Placeholder="Search Team.." name="teamname" class="form-control"
+          style="height: 50px">
+        <button type='submit' value='Seleted option' id='but_read2'>Submit</button>
+
+        <datalist id="citylist2">
+          {% for lists2 in list2 %}
+          <option value="{{lists2}}">
+            {% endfor %}
+        </datalist>
+
+
+      </form>
+      <br>
+      <br>
+      <br>
+
+
+
+      <!----------------------------------------------hover screen end----------------------------------------------------->
+
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+          class="bi bi-arrow-up-short"></i></a>
+
+      <!-- Vendor JS Files ----------------->
+      <script src="asset/vendor/aos/aos.js"></script>
+      <script src="asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="asset/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="asset/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="asset/vendor/php-email-form/validate.js"></script>
+      <script src="asset/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="asset/vendor/typed.js/typed.js"></script>
+      <script src="asset/vendor/typed.js/typed.min.js.map"></script>
+      <script src="asset/vendor/typed.js/typed.min.js"></script>
+
+
+      <!-- Template Main JS File -->
+      <script src="asset/js/main.js"></script>
+      <script src="asset/js/bar.js"></script>
+
+</body>
+
+</html>
