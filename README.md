@@ -38,16 +38,16 @@ Install Requirnment.txt file using Pip.
    
 # Features / Project Flow
    
-     ## 1. Home Page-DasHBoard
+     ## Home Page-DasHBoard
    
-     ## 2. Data-Analysis Tool
+     ## Data-Analysis Tool
             i.Exploratory Data analysis
             ii.Correlation Analysis
             iii.Cluster analysis
    
-     ## 3. FakeReview Detection.
+     ## FakeReview Detection.
    
-     ## 4. LogIN/LOGoUT Profile based
+     ## LogIN/LOGoUT Profile based
    
 ### Home Page - DashBoard
    ![image](https://user-images.githubusercontent.com/64836894/169657542-b1f34b79-4ac7-4edf-a657-c0eed1cfd7fc.png)
