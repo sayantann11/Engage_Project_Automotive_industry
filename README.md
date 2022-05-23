@@ -36,7 +36,7 @@ Install Requirnment.txt file using Pip.
 5. The project setup is completed and ready to start. Use python manage.py runserver to Start the project in local Host.
 
    
-#Features / Project Flow
+# Features / Project Flow
    
    1. Home Page-DasHBoard
    
