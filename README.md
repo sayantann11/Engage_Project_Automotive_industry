@@ -59,7 +59,7 @@ Install Requirnment.txt file using Pip.
    ![image](https://user-images.githubusercontent.com/64836894/169657678-a1eea54e-85a7-41fa-b2a3-92dffacd06e4.png)
 
 
-
+### Data-Analysis-Tool
 
    
 * In addition, I will provide a default analysis of the given dataset, including client groups, the most popular automobile specification combinations (engine type, fuel, mileage, and so on), the ideal time to introduce a new car, and so on. as it is capable of:
@@ -77,16 +77,17 @@ Install Requirnment.txt file using Pip.
 
 
    
-     ### i. Exploratory Data analysis on Dataset with inference
+     ### Exploratory Data analysis Tab
    
       ![image](https://user-images.githubusercontent.com/64836894/169657958-5191f796-292d-47fc-89cb-85d309d2c178.png)
 
    
-     ### ii. Cluster analysis on Cars and generate inference over it.
+     ### Cluster analysis on Cars and generate inference over it.
    ![image](https://user-images.githubusercontent.com/64836894/169657989-17accc53-d604-4d1a-b12e-8d8e56016c42.png)
 
    
-     ### iii. Correlation Grid -automatically suggest the useful features in the data-set by correlation grid.
+     ### Correlation Grid -automatically suggest the useful features in the data-set by correlation grid.
+   
    ![image](https://user-images.githubusercontent.com/64836894/169658029-76e8cdca-3319-432f-8d89-49239441b358.png)
    ![image](https://user-images.githubusercontent.com/64836894/169658096-6a05251a-d9a2-440d-b790-acfde9fda413.png)
 
