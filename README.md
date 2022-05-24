@@ -77,15 +77,15 @@ Install Requirnment.txt file using Pip.
 
 
    
- # Exploratory Data analysis Tab
+### Exploratory Data analysis Tab
    ![image](https://user-images.githubusercontent.com/64836894/169657958-5191f796-292d-47fc-89cb-85d309d2c178.png)
 
    
- # Cluster analysis on Cars and generate inference over it.
+### Cluster analysis Tab
    ![image](https://user-images.githubusercontent.com/64836894/169657989-17accc53-d604-4d1a-b12e-8d8e56016c42.png)
 
    
-     ### Correlation Grid -automatically suggest the useful features in the data-set by correlation grid.
+### Correlation Grid
    
    ![image](https://user-images.githubusercontent.com/64836894/169658029-76e8cdca-3319-432f-8d89-49239441b358.png)
    ![image](https://user-images.githubusercontent.com/64836894/169658096-6a05251a-d9a2-440d-b790-acfde9fda413.png)
