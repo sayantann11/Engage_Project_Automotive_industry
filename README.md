@@ -78,11 +78,10 @@ Install Requirnment.txt file using Pip.
 
    
  # Exploratory Data analysis Tab
-   
-      ![image](https://user-images.githubusercontent.com/64836894/169657958-5191f796-292d-47fc-89cb-85d309d2c178.png)
+   ![image](https://user-images.githubusercontent.com/64836894/169657958-5191f796-292d-47fc-89cb-85d309d2c178.png)
 
    
-     ### Cluster analysis on Cars and generate inference over it.
+ # Cluster analysis on Cars and generate inference over it.
    ![image](https://user-images.githubusercontent.com/64836894/169657989-17accc53-d604-4d1a-b12e-8d8e56016c42.png)
 
    
