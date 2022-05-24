@@ -79,6 +79,11 @@ Install Requirnment.txt file using Pip.
    
 ### Exploratory Data analysis Tab
    ![image](https://user-images.githubusercontent.com/64836894/169657958-5191f796-292d-47fc-89cb-85d309d2c178.png)
+   * Histogram of Price
+   * Dominating car BodyType
+   * BoxPlot for Price (Outlier analysis)
+   * engine size comparision
+   * Relationship for Price and Power
 
    
 ### Cluster analysis Tab
