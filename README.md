@@ -48,13 +48,13 @@ Install Requirnment.txt file using Pip.
    
    
    
-# Home Page - DashBoard
+### Home Page - DashBoard
    ![image](https://user-images.githubusercontent.com/64836894/169657542-b1f34b79-4ac7-4edf-a657-c0eed1cfd7fc.png)
    
-# Footer:
+### Footer:
    ![image](https://user-images.githubusercontent.com/64836894/169657592-894e098b-d81f-4c61-b42e-050543050e39.png)
    
-# Hover Section (User can insert Dataset)
+### Hover Section (User can insert Dataset)
    
    ![image](https://user-images.githubusercontent.com/64836894/169657678-a1eea54e-85a7-41fa-b2a3-92dffacd06e4.png)
 
@@ -62,13 +62,13 @@ Install Requirnment.txt file using Pip.
 
 
    
-## I will also provide a default analysis of the given dataset, such as customer categories, the most popular automobile specification combinations (engine type, fuel, mileage, and so on), the best time to introduce a new car, and so on. as it can perform:
+* In addition, I will provide a default analysis of the given dataset, including client groups, the most popular automobile specification combinations (engine type, fuel, mileage, and so on), the ideal time to introduce a new car, and so on. as it is capable of:
    
-  ## Once the user Insert Dataset. It will redirect to next Page where User and see the dataset with its Features. 
+* After that, the user must Insert Dataset. It will take the user to the next page, where they can view the dataset and its features.
    
    ![image](https://user-images.githubusercontent.com/64836894/169657701-ec1572b5-596d-45de-add1-c112461d3d8a.png)
    
-  ## At nav bar 3 options are present.  which will navigate as per user action.
+* Three options are available in the navigation bar. This will traverse according to the user's actions
    
    ![image](https://user-images.githubusercontent.com/64836894/169657791-6bf7a291-4373-4728-aebb-12aa5c321504.png)
    
