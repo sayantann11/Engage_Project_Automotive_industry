@@ -2,7 +2,7 @@
 
 # About The Project
 
-The automobile industry is flooded with options, it is a dream for a middle-class family to buy a car, and with this incentive, the company is doing everything possible to give a smooth ride utilising analytics. As a result, I'm attempting to develop an analytical tool for the automotive sector as per Manufacturing Industry Employees as a user.
+The automobile industry is flooded with options, it is a dream for a middle-class family to buy a car, and with this incentive, the company is doing everything possible to give a smooth ride utilising analytics. As a result, I'm attempting to develop an analytical tool to provide Data-Analysis for the automotive sector as per Manufacturing Industry Employees as a user.
 
 # X-factor
 
@@ -16,9 +16,6 @@ Hence my Project will also solve this Problem by doing Real-time Fake Review Det
 * Html/css/javascript
 * Dbsqlite Database
 * bootstrap
-
-<!-- GETTING STARTED -->
-# Getting Started
 
 
 
@@ -38,24 +35,24 @@ Install Requirnment.txt file using Pip.
    
 # Features / Project Flow
    
-     ## Home Page-DasHBoard
+     * Home Page-DasHBoard
    
-     ## Data-Analysis Tool
-            i.Exploratory Data analysis
-            ii.Correlation Analysis
-            iii.Cluster analysis
+     * Data-Analysis Tool
+            * Exploratory Data analysis
+            * Correlation Analysis
+            * Cluster analysis
    
-     ## FakeReview Detection.
+     * FakeReview Detection.
    
-     ## LogIN/LOGoUT Profile based
+     * LogIN/LOGoUT Profile based
    
-### Home Page - DashBoard
+ # Home Page - DashBoard
    ![image](https://user-images.githubusercontent.com/64836894/169657542-b1f34b79-4ac7-4edf-a657-c0eed1cfd7fc.png)
    
-   #### footer:
+ # footer:
    ![image](https://user-images.githubusercontent.com/64836894/169657592-894e098b-d81f-4c61-b42e-050543050e39.png)
    
-   #### Hover Section (User can insert Dataset)
+ # Hover Section (User can insert Dataset)
    
    ![image](https://user-images.githubusercontent.com/64836894/169657678-a1eea54e-85a7-41fa-b2a3-92dffacd06e4.png)
 
