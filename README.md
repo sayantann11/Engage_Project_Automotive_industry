@@ -33,11 +33,11 @@ Install Requirnment.txt file using Pip.
 5. The project setup is completed and ready to start. Use python manage.py runserver to Start the project in local Host.
 
    
-# Features / Project Flow
+# Features
    
-     * Home Page-DasHBoard
+      Home Page-DasHBoard
    
-     * Data-Analysis Tool
+      Data-Analysis Tool
             * Exploratory Data analysis
             * Correlation Analysis
             * Cluster analysis
@@ -46,13 +46,13 @@ Install Requirnment.txt file using Pip.
    
      * LogIN/LOGoUT Profile based
    
- # Home Page - DashBoard
+  Home Page - DashBoard
    ![image](https://user-images.githubusercontent.com/64836894/169657542-b1f34b79-4ac7-4edf-a657-c0eed1cfd7fc.png)
    
- # footer:
+  Footer:
    ![image](https://user-images.githubusercontent.com/64836894/169657592-894e098b-d81f-4c61-b42e-050543050e39.png)
    
- # Hover Section (User can insert Dataset)
+  Hover Section (User can insert Dataset)
    
    ![image](https://user-images.githubusercontent.com/64836894/169657678-a1eea54e-85a7-41fa-b2a3-92dffacd06e4.png)
 
