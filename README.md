@@ -35,7 +35,7 @@ Install Requirnment.txt file using Pip.
    
 # Features
 
-   shfjkhdjhf
+   # shfjkhdjhf
    
    
    
