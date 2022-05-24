@@ -88,21 +88,21 @@ Install Requirnment.txt file using Pip.
    
 ### Cluster analysis Tab
    ![image](https://user-images.githubusercontent.com/64836894/169657989-17accc53-d604-4d1a-b12e-8d8e56016c42.png)
-   *Cluster the cars types and cars using k-means algorithm
-   *Price  and horse power with cluster price
-   *Power and Mileage after clustering
-   *Engine size with Fuel tanks
-   *Average price with each cluster
-   *Finding potential stretegic groups
-   *Cars body type with each cluster
+   * Cluster the cars types and cars using k-means algorithm
+   * Price  and horse power with cluster price
+   * Power and Mileage after clustering
+   * Engine size with Fuel tanks
+   * Average price with each cluster
+   * Finding potential stretegic groups
+   * Cars body type with each cluster
 
    
 ### Correlation Grid
    
    ![image](https://user-images.githubusercontent.com/64836894/169658029-76e8cdca-3319-432f-8d89-49239441b358.png)
    ![image](https://user-images.githubusercontent.com/64836894/169658096-6a05251a-d9a2-440d-b790-acfde9fda413.png)
-   *Correlation Matrix (to know which features all strongly correlated)
-   *xtensive scatter plot grid of more numerical variable to investigate the realtion in more detail
+   * Correlation Matrix (to know which features all strongly correlated)
+   * Extensive scatter plot grid of more numerical variable to investigate the realtion in more detail
 
 
    
