@@ -37,11 +37,11 @@ Install Requirnment.txt file using Pip.
 
    * Home Page - DashBoard
    * Data Analysis Tool (for custom dataset)
-    i.Exploratory Data-Analysis
+    * Exploratory Data-Analysis
         
-    ii.Cluster Analysis
+    * Cluster Analysis
         
-    iii.Correlation Analysis
+    * Correlation Analysis
    
    * Command-line Query for Generating graphs
    * Fake-Review Detection  (Real-time)
