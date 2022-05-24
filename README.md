@@ -107,7 +107,10 @@ Install Requirnment.txt file using Pip.
 
    
    
-## A command line tool where the user can dynamically enter a query and the required visualisation will be generated with its inference, allowing the user to understand what the graph is doing.
+## Command-line Query for Generating graphs
+  * A command line tool where the user can dynamically enter a query.
+  * the required visualisation will be generated with its inference, allowing the user to understand what the graph is doing.
+  * Currently which option is limited to only 3 graphs as per prototype(line,scatter,bar)
   
    ![image](https://user-images.githubusercontent.com/64836894/169658056-f503346f-6b8b-4a02-b538-6ae1c55c879b.png)
    ![image](https://user-images.githubusercontent.com/64836894/169658145-b1fb878a-ba51-4884-a74c-fa5b03de188c.png)
@@ -117,12 +120,14 @@ Install Requirnment.txt file using Pip.
    
    
    
-## Fake reviews make it difficult for industries to make informed decisions, so I decided to create a function to detect and delete fake reviews from the dataset for accurate analysis and forecasting of car demand and features.
-  ### A TEXT box where user can Write its Query Whether it is Fake or Not.
+## Fake Reviews Detection 
+Fake reviews make it extremely difficult for manufacturers to make informed judgments, therefore I decided to write a function to detect and remove fake reviews from the dataset for accurate demand and feature forecasts.
+
+* TEXT box where user can Write its Query Whether it is Fake or Not.
   
    ![image](https://user-images.githubusercontent.com/64836894/169658180-41356a07-03a9-474a-896f-85c08b7dfaad.png)
   
-   ### A result Page with decisions:
+* Result Page with decisions:
    
    ![image](https://user-images.githubusercontent.com/64836894/169658211-a3ee8894-a3fc-4d24-b013-1e28918c7d22.png)
 
@@ -132,7 +137,7 @@ Install Requirnment.txt file using Pip.
    
    ![image](https://user-images.githubusercontent.com/64836894/169658234-60cd2df0-1dbc-449e-b803-156338fa61c9.png)
    
-   ## LOgin with a success message
+## Login with a success message
    
    ![image](https://user-images.githubusercontent.com/64836894/169658262-d8f72251-4456-4e99-baa3-156a47169963.png)
 
