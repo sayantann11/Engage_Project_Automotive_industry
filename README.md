@@ -100,7 +100,7 @@ Install Requirnment.txt file using Pip.
 ### Correlation Grid
    
    ![image](https://user-images.githubusercontent.com/64836894/169658029-76e8cdca-3319-432f-8d89-49239441b358.png)
-   ![image](https://user-images.githubusercontent.com/64836894/169658096-6a05251a-d9a2-440d-b790-acfde9fda413.png)
+  
    * Correlation Matrix (to know which features all strongly correlated)
    * Extensive scatter plot grid of more numerical variable to investigate the realtion in more detail
 
@@ -109,10 +109,12 @@ Install Requirnment.txt file using Pip.
    
 ## Command-line Query for Generating graphs
   * A command line tool where the user can dynamically enter a query.
+    ![image](https://user-images.githubusercontent.com/64836894/169658096-6a05251a-d9a2-440d-b790-acfde9fda413.png)
   * the required visualisation will be generated with its inference, allowing the user to understand what the graph is doing.
+   ![image](https://user-images.githubusercontent.com/64836894/169658056-f503346f-6b8b-4a02-b538-6ae1c55c879b.png)
   * Currently which option is limited to only 3 graphs as per prototype(line,scatter,bar)
   
-   ![image](https://user-images.githubusercontent.com/64836894/169658056-f503346f-6b8b-4a02-b538-6ae1c55c879b.png)
+   
    ![image](https://user-images.githubusercontent.com/64836894/169658145-b1fb878a-ba51-4884-a74c-fa5b03de188c.png)
 
 
