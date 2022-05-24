@@ -2,7 +2,7 @@
 
 # About The Project
 
-The automobile industry is flooded with options, it is a dream for a middle-class family to buy a car, and with this incentive, the company is doing everything possible to give a smooth ride utilising analytics. As a result, I'm attempting to develop an analytical tool to provide Data-Analysis for the automotive sector as per Manufacturing Industry Employees as a user.
+The automobile industry is flooded with options, it is a dream for a middle-class family to buy a car, and with this incentive, the company is doing everything possible to give a smooth ride utilising analytics. As a result, I'm attempting to develop an analytical tool to provide Data-Analysis for User given Dataset for the automotive sector as per Manufacturing Industry Employees as a user to take informed decisions.
 
 # X-factor
 
