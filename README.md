@@ -16,6 +16,7 @@ Hence my Project will also solve this Problem by doing Real-time Fake Review Det
 * Html/css/javascript
 * Dbsqlite Database
 * bootstrap
+* jupyter-notebook(webscraping using beautiful-soop)
 
 
 
