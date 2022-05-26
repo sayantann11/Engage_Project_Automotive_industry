@@ -4,3 +4,6 @@ scikit-learn
 django-heroku
 pandas
 numpy
+seaborn
+plotly
+scikit-learn
