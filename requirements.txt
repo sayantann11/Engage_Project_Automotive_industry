@@ -2,3 +2,5 @@ nltk
 Django
 scikit-learn
 django-heroku
+pandas
+numpy
