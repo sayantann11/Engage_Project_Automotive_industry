@@ -198,7 +198,7 @@
 
               var chart = new google.visualization.Histogram(document.getElementById('chart_div'));
               chart.draw(data, options);
-      }
+              }
             </script>
           </head>
 
@@ -238,26 +238,107 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <!--  -->
+      <!--  -->
 
-        <div class="card card-stats">
-          <div class="card-header card-header-success card-header-icon">
-            <div class="card-icon">
-              <a>Most dominatng car body type</a>
-            </div>
-
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <input type="image" src="assets/count.png" alt="Submit" width="1200" height="650">
-
-
-
-
+      <div class="card card-stats">
+        <div class="card-header card-header-success card-header-icon">
+          <div class="card-icon">
+            <a>Most dominatng car body type</a>
           </div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <input type="image" src="assets/count.png" alt="Submit" width="1200" height="650">
+
+
+
+
+        </div>
+        <div class="card-footer">
+          <div class="stats">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1">Get Inference</a>
+
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    <ul>
+                      <li>SUV's Sedans and hatchbacks seems to be the dominating car types</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <!--  -->
+      <div class="card card-stats">
+        <div class="card-header card-header-success card-header-icon">
+          <div class="card-icon">
+            <a>Check For Outliers</a>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <input type="image" src="assets/box3.png" alt="Submit" width="1200" height="650">
+
+
+        </div>
+        <div class="card-footer">
+          <div class="stats">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1">Get Inference</a>
+
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    <ul>
+                      <li>It's Clear that Car body type strongly affect the price </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!--  -->
+      <div class="card card-stats">
+        <div class="card-header card-header-success card-header-icon">
+          <div class="card-icon">
+            <a>car by engine size</a>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <input type="image" src="assets/box4.png" alt="Submit" width="1200" height="650">
+
+
+
           <div class="card-footer">
             <div class="stats">
               <p>
@@ -270,9 +351,10 @@
                   <div class="collapse multi-collapse" id="multiCollapseExample1">
                     <div class="card card-body">
                       <ul>
-                        <li>SUV's Sedans and hatchbacks seems to be the dominating car types</li>
+                        <li>
+                          Seems like most of cars have engine size in the 1000:2000cc range
+                        </li>
                       </ul>
-
                     </div>
                   </div>
                 </div>
@@ -281,60 +363,47 @@
             </div>
           </div>
         </div>
-
-        <!--  -->
-        <!--  -->
-        <div class="card card-stats">
-          <div class="card-header card-header-success card-header-icon">
-            <div class="card-icon">
-              <a>Check For Outliers</a>
-            </div>
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <input type="image" src="assets/box3.png" alt="Submit" width="1200" height="650">
-
-
-          </div>
-          <div class="card-footer">
-            <div class="stats">
-              <p>
-                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
-                  aria-expanded="false" aria-controls="multiCollapseExample1">Get Inference</a>
-
-              </p>
-              <div class="row">
-                <div class="col">
-                  <div class="collapse multi-collapse" id="multiCollapseExample1">
-                    <div class="card card-body">
-                      <ul>
-                        <li>It's Clear that Car body type strongly affect the price </li>
-                      </ul>
-
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
         </div>
-        <!--  -->
-        <!--  -->
+
+
+
         <div class="card card-stats">
           <div class="card-header card-header-success card-header-icon">
             <div class="card-icon">
-              <a>car by engine size</a>
+              <a>Horsepower of cars</a>
             </div>
 
             <br>
             <br>
             <br>
             <br>
+            <html>
 
-            <input type="image" src="assets/box4.png" alt="Submit" width="1200" height="650">
+            <head>
+              <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+              <script type="text/javascript">
+                google.charts.load("current", { packages: ["corechart"] });
+                google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                  var data = google.visualization.arrayToDataTable({{ p1| safe}});
+
+                var options = {
+                  title: 'Lengths of dinosaurs, in meters',
+                  legend: { position: 'none' },
+                };
+
+                var chart = new google.visualization.Histogram(document.getElementById('chart_div1'));
+                chart.draw(data, options);
+                  }
+              </script>
+            </head>
+
+            <body>
+              <div id="chart_div1" style="width: 900px; height: 500px;"></div>
+            </body>
+
+            </html>
+
 
 
 
@@ -351,7 +420,7 @@
                       <div class="card card-body">
                         <ul>
                           <li>
-                            Seems like most of cars have engine size in the 1000:2000cc range
+                            Now we check the relation horsepower and price considering diffreent body type
                           </li>
                         </ul>
                       </div>
@@ -362,44 +431,19 @@
               </div>
             </div>
           </div>
+
+          <!--  -->
           <div class="card card-stats">
             <div class="card-header card-header-success card-header-icon">
               <div class="card-icon">
-                <a>Horsepower of cars</a>
+                <a>horsepower and pricee</a>
               </div>
 
               <br>
               <br>
               <br>
               <br>
-              <html>
-
-              <head>
-                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                <script type="text/javascript">
-                  google.charts.load("current", { packages: ["corechart"] });
-                  google.charts.setOnLoadCallback(drawChart);
-                  function drawChart() {
-                    var data = google.visualization.arrayToDataTable({{ p1| safe}});
-
-                  var options = {
-                    title: 'Lengths of dinosaurs, in meters',
-                    legend: { position: 'none' },
-                  };
-
-                  var chart = new google.visualization.Histogram(document.getElementById('chart_div1'));
-                  chart.draw(data, options);
-      }
-                </script>
-              </head>
-
-              <body>
-                <div id="chart_div1" style="width: 900px; height: 500px;"></div>
-              </body>
-
-              </html>
-
-
+              <input type="image" src="assets/scatter1.png" alt="Submit" width="1200" height="650">
 
 
               <div class="card-footer">
@@ -415,7 +459,9 @@
                         <div class="card card-body">
                           <ul>
                             <li>
-                              Now we check the relation horsepower and price considering diffreent body type
+                              Horsepower of car seems to be highly related to car price but car body type seems a
+                              little bit blurry but hatchbacls seems to be the body type with the least horsepower and
+                              price
                             </li>
                           </ul>
                         </div>
@@ -426,19 +472,19 @@
                 </div>
               </div>
             </div>
-
-            <!--  -->
+            </div>
+            <!-- ? -->
             <div class="card card-stats">
               <div class="card-header card-header-success card-header-icon">
                 <div class="card-icon">
-                  <a>horsepower and pricee</a>
+                  <a>Mileage and price</a>
                 </div>
 
                 <br>
                 <br>
                 <br>
                 <br>
-                <input type="image" src="assets/scatter1.png" alt="Submit" width="1200" height="650">
+                <input type="image" src="assets/joinplot.png" alt="Submit" width="1200" height="650">
 
 
                 <div class="card-footer">
@@ -453,11 +499,7 @@
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                           <div class="card card-body">
                             <ul>
-                              <li>
-                                Horsepower of car seems to be highly related to car price but car body type seems a
-                                little bit blurry but hatchbacls seems to be the body type with the least horsepower and
-                                price
-                              </li>
+                              <li>It's looks like expensive cars tend to have worse mileage</li>
                             </ul>
                           </div>
                         </div>
@@ -467,42 +509,7 @@
                   </div>
                 </div>
               </div>
-              <!-- ? -->
-              <div class="card card-stats">
-                <div class="card-header card-header-success card-header-icon">
-                  <div class="card-icon">
-                    <a>Mileage and price</a>
-                  </div>
-
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <input type="image" src="assets/joinplot.png" alt="Submit" width="1200" height="650">
-
-
-                  <div class="card-footer">
-                    <div class="stats">
-                      <p>
-                        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
-                          aria-expanded="false" aria-controls="multiCollapseExample1">Get Inference</a>
-
-                      </p>
-                      <div class="row">
-                        <div class="col">
-                          <div class="collapse multi-collapse" id="multiCollapseExample1">
-                            <div class="card card-body">
-                              <ul>
-                                <li>It's looks like expensive cars tend to have worse mileage</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </div>
 
 
 
@@ -527,30 +534,30 @@
 
 
 
-                <!--   Core JS Files  ----------------->
-                <script src="../asset/js/core/jquery.min.js"></script>
-                <script src="../asset/js/core/popper.min.js"></script>
-                <script src="../asset/js/core/bootstrap-material-design.min.js"></script>
-                <script src="../asset/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-                <script src="../asset/js/plugins/moment.min.js"></script>
-                <script src="../asset/js/plugins/sweetalert2.js"></script>
-                <script src="../asset/js/plugins/jquery.validate.min.js"></script>
-                <script src="../asset/js/plugins/jquery.bootstrap-wizard.js"></script>
-                <script src="../asset/js/plugins/bootstrap-selectpicker.js"></script>
-                <script src="../asset/js/plugins/bootstrap-datetimepicker.min.js"></script>
-                <script src="../asset/js/plugins/jquery.dataTables.min.js"></script>
-                <script src="../asset/js/plugins/bootstrap-tagsinput.js"></script>
-                <script src="../asset/js/plugins/jasny-bootstrap.min.js"></script>
-                <script src="../asset/js/plugins/fullcalendar.min.js"></script>
-                <script src="../asset/js/plugins/jquery-jvectormap.js"></script>
-                <script src="../asset/js/plugins/nouislider.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
-                <script src="../asset/js/plugins/arrive.min.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-                <script src="../asset/js/plugins/chartist.min.js"></script>
-                <script src="../asset/js/plugins/bootstrap-notify.js"></script>
-                <script src="../asset/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
-                <script src="../asset/demo/demo.js"></script>
+              <!--   Core JS Files  ----------------->
+              <script src="../asset/js/core/jquery.min.js"></script>
+              <script src="../asset/js/core/popper.min.js"></script>
+              <script src="../asset/js/core/bootstrap-material-design.min.js"></script>
+              <script src="../asset/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+              <script src="../asset/js/plugins/moment.min.js"></script>
+              <script src="../asset/js/plugins/sweetalert2.js"></script>
+              <script src="../asset/js/plugins/jquery.validate.min.js"></script>
+              <script src="../asset/js/plugins/jquery.bootstrap-wizard.js"></script>
+              <script src="../asset/js/plugins/bootstrap-selectpicker.js"></script>
+              <script src="../asset/js/plugins/bootstrap-datetimepicker.min.js"></script>
+              <script src="../asset/js/plugins/jquery.dataTables.min.js"></script>
+              <script src="../asset/js/plugins/bootstrap-tagsinput.js"></script>
+              <script src="../asset/js/plugins/jasny-bootstrap.min.js"></script>
+              <script src="../asset/js/plugins/fullcalendar.min.js"></script>
+              <script src="../asset/js/plugins/jquery-jvectormap.js"></script>
+              <script src="../asset/js/plugins/nouislider.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+              <script src="../asset/js/plugins/arrive.min.js"></script>
+              <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+              <script src="../asset/js/plugins/chartist.min.js"></script>
+              <script src="../asset/js/plugins/bootstrap-notify.js"></script>
+              <script src="../asset/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
+              <script src="../asset/demo/demo.js"></script>
 </body>
 
 </html>
