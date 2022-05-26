@@ -1,1 +1,2 @@
-web: gunicorn hellodjango.wsgi
+web: gunicorn myproject.wsgi
+web: python manage.py runserver 0.0.0.0:5000
