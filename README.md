@@ -43,6 +43,7 @@ Install Requirnment.txt file using Pip.
    
    * Command-line Query for Generating graphs
    * Fake-Review Detection  (Real-time)
+      * Web Scraping From Amazon review to Train model.
    * SignUp/SignIn (for particular user)
    
    
