@@ -1,8 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing Page - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../assets/css/styles.css" rel="stylesheet" />
+		
+		  <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,7 +24,8 @@
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!--Typed.js-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
-
+<!-- Core theme CSS (includes Bootstrap)-->
+        <link href="assets/css/style.css" rel="stylesheet" />
     <title>Fake Review</title>
     <!-- Favicon-->
     <link rel="shortcut icon" href="#">
@@ -27,13 +41,11 @@
             display: block;
         }
     </style>
-</head>
-
-<body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="fake.html" style="color:rgb(255, 102, 0) ;">Fake Review Spotting </a>
+    </head>
+    <body>
+        <!-- Navigation-->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="fake.html" style="color:rgb(251, 251, 250) ;">Fake Review Spotting </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,11 +53,11 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/" style="color:rgb(255, 102, 0) ;">Home <span
+                    <a class="nav-link" href="/" style="color:rgb(252, 251, 251) ;">Home <span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/aboutus.html" style="color:rgb(255, 102, 0) ;">About Us</a>
+                    <a class="nav-link" href="/aboutus.html" style="color:rgb(254, 252, 250) ;">About Us</a>
                 </li>
 
 
@@ -70,7 +82,42 @@
         </button>
     </div>
 
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                            <div class="container">
+        
+          
+            <h1>UPLOAD YOUR FILE HERE</h1>
 
+            <div>
+              <form method="POST" enctype="multipart/form-data" action="{% url 'result2' %}">
+                {% csrf_token %}
+                <div class="input-group">
+                  <input style="color: dark" type="file" class="form-control" id="fileupload" name="fileupload"
+                    aria-label="Upload" />
+                  <button class="btn btn-warning" id="uploadbutton" name="uploadbutton" type="submit">
+                    Upload
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+                        </div>
+                    </div>
+        
+        </header>
+		
+		
+		<br>
+		<br>
+		
     <div class="container">
 
         <form action='result' onsubmit="return validate()" method='post'> {% csrf_token %}
@@ -123,56 +170,12 @@
                 <label class="custom-control-label" for="customSwitch5">Number Remover</label>
             </div>
 
-            <button type="submit" class="btn btn-dark mt-2">Analyze Text</button>
+            <button type="submit" class="btn btn-warning">Analyze Text</button>
         </form>
     </div>
-    <div class="container">
-        <div class="row">
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>UPLOAD YOUR FILE HERE</h1>
-
-            <div>
-              <form method="POST" enctype="multipart/form-data" action="{% url 'result2' %}">
-                {% csrf_token %}
-                <div class="input-group">
-                  <input style="color: dark" type="file" class="form-control" id="fileupload" name="fileupload"
-                    aria-label="Upload" />
-                  <button class="btn btn-primary" id="uploadbutton" name="uploadbutton" type="submit">
-                    Upload
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    
-    <!-- <div class="frame" style="margin-bottom: 5%; margin-left: 17%;">
-
-        <h1>Data Frame</h1>
-        <table border="5px">
-            <tr>
-
-                {% for data in df %}
-                <th>{{ data }}</th>
-                {% endfor %}
-
-                {% for _, record in df.iterrows %}
-            <tr>
-                {% for value in record %}
-                <td>{{ value|safe }}</td>
-                {% endfor %}
-            </tr>
-            {% endfor %}
-            </tr>
-        </table>
-    </div> -->
-    <!-- Typed.js DONT TOUCH THIS! -->
-    <div id="typed-strings">
-    </div>
-
-    <script>
+		
+		
+		  <script>
         var typed = new Typed('#typed', {
             strings: ["You can do anything with your Review here!", "Enter your Review here and let Fake Spoting do the magic!"],
             backSpeed: 15,
@@ -184,36 +187,35 @@
 
         });
     </script>
-    <!-- Footer-->
-    <footer class="footer">
-        <div class="container">
-            <span class="text-light">&#169 2022 Carsamjho.com </span>
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <script>
-        function validate() {
-            var textarea = document.getElementById('exampleFormControlTextarea1').value;
-            var span = document.getElementById('messageofvalidate');
-
-            if (textarea == '') {
-                span.innerHTML = 'Please Write Your Message';
-                return false;
-            }
-
-        }
-    </script>
-</body>
-
+		<br>
+		<br>
+		
+		<footer id="footer">
+    <div class="container">
+      <h3>Car Analysis</h3>
+      <p>
+        A tool that allows you to analyze current car trends, compare cars, estimate future sales, identify customer
+        segments, and eliminate fake reviews in order to make necessary decisions.
+      </p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <p>This tool is a one-stop destination for companies to track their consumers and make appropriate decisions.</p>
+    </div>
+  </footer>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
