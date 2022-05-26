@@ -11,7 +11,8 @@
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!--Typed.js-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
-
+<!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../assets/css/styles.css" rel="stylesheet" />
     <title>Fake Review</title>
     <!-- Favicon-->
     <link rel="shortcut icon" href="#">
@@ -33,7 +34,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="fake.html" style="color:rgb(255, 102, 0) ;">Fake Review Spotting </a>
+        <a class="navbar-brand" href="fake.html" style="color:rgb(253, 252, 251) ;">Fake Review Spotting </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,11 +42,11 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/" style="color:rgb(255, 102, 0) ;">Home <span
+                    <a class="nav-link" href="/" style="color:rgb(254, 253, 253) ;">Home <span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/aboutus.html" style="color:rgb(255, 102, 0) ;">About Us</a>
+                    <a class="nav-link" href="/aboutus.html" style="color:rgb(252, 250, 249) ;">About Us</a>
                 </li>
 
 
@@ -69,8 +70,10 @@
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
-
-
+<header class="masthead-2">
+<section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
  
     <div class="frame" style="margin-bottom: 5%; margin-left: 17%;">
 
@@ -91,8 +94,15 @@
             {% endfor %}
             </tr>
         </table>
+					
+				
+	
     </div>
-    <!-- Typed.js DONT TOUCH THIS! -->
+	</div>
+	
+	</section>
+	
+	<    <!-- Typed.js DONT TOUCH THIS! -->
     <div id="typed-strings">
     </div>
 
@@ -108,12 +118,27 @@
 
         });
     </script>
+	</header>
     <!-- Footer-->
-    <footer class="footer">
-        <div class="container">
-            <span class="text-light">&#169 2022 Carsamjho.com </span>
-        </div>
-    </footer>
+	
+<footer id="footer">
+    <div class="container">
+      <h3>Car Analysis</h3>
+      <p>
+        A tool that allows you to analyze current car trends, compare cars, estimate future sales, identify customer
+        segments, and eliminate fake reviews in order to make necessary decisions.
+      </p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <p>This tool is a one-stop destination for companies to track their consumers and make appropriate decisions.</p>
+    </div>
+  </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
