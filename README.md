@@ -8,6 +8,8 @@ The automobile industry is flooded with options, it is a dream for a middle-clas
 
 As the manufacturing industry must make selections based on car reviews. The dataset is being harmed by FAKE/Misleading Reviews, which is a big problem. It must be identified and extracted from the data in order to make excellent business decisions.
 
+* Industry Employees are the User for the Project to Take informed Decisions by this tool.
+
 Hence my Project will also solve this Problem by doing Real-time Fake Review Detection.
 
 # Built With
