@@ -47,7 +47,9 @@ Install Requirnment.txt file using Pip.
       * Web Scraping From Amazon review to Train model.
    * SignUp/SignIn (for particular user)
    
-   
+# Flow-Chart 
+   ![Flowchart](https://user-images.githubusercontent.com/64836894/170710361-33abc773-5405-4176-a790-680876c6c996.png)
+
    
    
 ### Home Page - DashBoard
