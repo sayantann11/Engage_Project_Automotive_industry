@@ -52,7 +52,8 @@ Install Requirnment.txt file using Pip.
    ![Flowchart](https://user-images.githubusercontent.com/64836894/170710361-33abc773-5405-4176-a790-680876c6c996.png)
 
 # USE-CASE diagram
-   ![Untitled Workspace](https://user-images.githubusercontent.com/64836894/170715360-7c682606-772c-4b7b-9d8b-febb2fd67be8.png)
+   ![Untitled Workspace](https://user-images.githubusercontent.com/64836894/170715501-cc6e7a00-1007-4665-890d-4cda8bb8297c.jpg)
+
 
    
 ### Home Page - DashBoard
