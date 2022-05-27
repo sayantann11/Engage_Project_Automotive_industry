@@ -37,14 +37,15 @@ Install Requirnment.txt file using Pip.
 # Features
 
    * Home Page - DashBoard
+   * Fake-Review Detection  (Real-time)
+      * Web Scraping From Amazon review to Train model.
    * Data Analysis Tool (for custom dataset)
       * Exploratory Data-Analysis
       * Cluster Analysis
       * Correlation Analysis
    
    * Command-line Query for Generating graphs
-   * Fake-Review Detection  (Real-time)
-      * Web Scraping From Amazon review to Train model.
+
    * SignUp/SignIn (for particular user)
    
 # Flow-Chart 
