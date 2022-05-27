@@ -19,12 +19,14 @@ Hence my Project will also solve this Problem by doing Real-time Fake Review Det
 * Dbsqlite Database
 * bootstrap
 * jupyter-notebook(webscraping using beautiful-soop)
+* seaborn for Visualization
 
 
 
 # Prerequisites
 
 Install Requirnment.txt file using Pip.
+Run pip install -r requirements.txt
 
 # Installation
 
@@ -170,6 +172,11 @@ Fake reviews make it extremely difficult for manufacturers to make informed judg
 ## Login with a success message
    
    ![image](https://user-images.githubusercontent.com/64836894/169658262-d8f72251-4456-4e99-baa3-156a47169963.png)
-
+   
+   
+   
+   
+   
+  
    
 
