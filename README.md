@@ -12,6 +12,9 @@ As the manufacturing industry must make selections based on car reviews. The dat
 
 Hence my Project will also solve this Problem by doing Real-time Fake Review Detection.
 
+# youtube Demo:
+https://www.youtube.com/watch?v=JZ0lHTFIjoo
+
 # Built With
 
 * Django
