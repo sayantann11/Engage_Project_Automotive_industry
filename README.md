@@ -74,7 +74,7 @@ Install Requirnment.txt file using Pip.
 ## Fake Reviews Detection 
 Fake reviews make it extremely difficult for manufacturers to make informed judgments, therefore I decided to write a function to detect and remove fake reviews from the dataset for accurate demand and feature forecasts.
 
-* TEXT box where user can Write its Query Whether it is Fake or Not.
+* TEXT box where user can Write its Query Whether it is Fake or Not / also can insert Fake Review excel dataset
    * Pre-processing of Text as per user.
   ![image](https://user-images.githubusercontent.com/64836894/170719071-e98b963e-1bd5-494a-8fad-4b28954227d0.png)
    
