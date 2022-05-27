@@ -53,6 +53,9 @@ Install Requirnment.txt file using Pip.
 
 # USE-CASE diagram
    ![Untitled Workspace](https://user-images.githubusercontent.com/64836894/170715501-cc6e7a00-1007-4665-890d-4cda8bb8297c.jpg)
+# File-Structure
+   ![Capture](https://user-images.githubusercontent.com/64836894/170718353-bfd607dc-b8e2-4fe4-a21c-ba12b89c03ae.png)
+
 
 
    
