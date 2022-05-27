@@ -69,6 +69,31 @@ Install Requirnment.txt file using Pip.
    
    ![image](https://user-images.githubusercontent.com/64836894/169657678-a1eea54e-85a7-41fa-b2a3-92dffacd06e4.png)
 
+## Fake Reviews Detection 
+Fake reviews make it extremely difficult for manufacturers to make informed judgments, therefore I decided to write a function to detect and remove fake reviews from the dataset for accurate demand and feature forecasts.
+
+* TEXT box where user can Write its Query Whether it is Fake or Not.
+   * Pre-processing of Text as per user.
+  ![image](https://user-images.githubusercontent.com/64836894/170719071-e98b963e-1bd5-494a-8fad-4b28954227d0.png)
+   
+   
+   * Inline Character as well as Word Count feature
+   
+   ![image](https://user-images.githubusercontent.com/64836894/170720871-1651bec4-a905-4624-8991-94b08bbd419d.png)
+
+   
+
+  
+  
+* Result Page with decisions:
+   ![image](https://user-images.githubusercontent.com/64836894/170719384-0dc33169-475c-4b7f-83b0-5cc890e9563e.png)
+
+   ![image](https://user-images.githubusercontent.com/64836894/170719214-68ad6254-183b-41f9-9e5e-d99431ff6a0a.png)
+   
+
+   
+ 
+
 
 ### Data-Analysis-Tool
 
@@ -133,16 +158,6 @@ Install Requirnment.txt file using Pip.
    
    
    
-## Fake Reviews Detection 
-Fake reviews make it extremely difficult for manufacturers to make informed judgments, therefore I decided to write a function to detect and remove fake reviews from the dataset for accurate demand and feature forecasts.
-
-* TEXT box where user can Write its Query Whether it is Fake or Not.
-  
-   ![image](https://user-images.githubusercontent.com/64836894/169658180-41356a07-03a9-474a-896f-85c08b7dfaad.png)
-  
-* Result Page with decisions:
-   
-   ![image](https://user-images.githubusercontent.com/64836894/169658211-a3ee8894-a3fc-4d24-b013-1e28918c7d22.png)
 
    
    
